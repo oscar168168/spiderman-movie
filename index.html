@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spider-Man Collector | Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/xicon" href="./img/head.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="./img/eye.png" alt=""></a>
+      <div class="navbar" id="navLinks">
+        <i class="fas fa-window-close " id="i2"onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="movie.html">MOVIES</a></li>
+          <li><a href="download.html">DOWNLOADS</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>"Movie Time!"</h1>
+      <h2>The Spider-Man Movies Collector</h2>
+      <p>Be Our Member to To Watch or <br> Download All The Spider-Man's Movie For Free.</p>
+      <a class="hero-btn" href="#">Register Now</a>
+    </div>
+  </section>
+<body>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-180px";
+    }
+  </script>
+
+
+  <section class="warning-part">
+    <h1>Warning! Watch And Download</h1>
+    <p>Before you watch or download all of the movies in our website, <br>
+      you have to charge us for 5$ first, and you can watch or download all of the movies free for life time. <br>
+      You just click on the up size <span>Button</span> to charge us. Thank you
+    </p>
+  </section>
+  <section class="some-movie">
+    <h1>Popular Downloads</h1>
+    <div class="row">
+      <div class="most-col">
+        <div class="layer">
+          <a href="#"> <img src="./img/poster1.jpg"> </a>
+        </div>
+
+      </div>
+      <div class="most-col">
+        <div class="layer">
+          <a href="#"> <img src="./img/poster2.jpg"> </a>
+        </div>
+
+      </div>
+      <div class="most-col">
+        <div class="layer">
+          <a href="#"> <img src="./img/poster3.jpg"> </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Here are our Connection. </p>
+    <div class="icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <p>Made with <i class="fas fa-heart"></i> by Rat Raksmey.</p> <br> <br>
+      </div>
+
+
+  </section>
+</body>
+<footer>
+  <p id="copyright">©2022, All Right Reseverd | The Spider-Man Collector </p>
+</footer>
+</html>
